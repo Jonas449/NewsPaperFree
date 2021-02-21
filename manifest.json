@@ -1,0 +1,41 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "newspaperfree@example.com",
+      "strict_min_version": "42.0"
+    }
+  },
+
+  "manifest_version": 2,
+  "name": "Newspaper Free",
+  "version": "1.0",
+
+  "description": "Articles on some newspaper pages can be read free",
+
+  "icons": {
+    "48": "icons/newspaper.svg"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.haz.de/*",
+        "*://*.cellesche-zeitung.de/*",
+        "*://*.neuepresse.de/*",
+        "*://*.goettinger-tageblatt.de/*",
+        "*://*.waz-online.de/*",
+        "*://*.paz-online.de/*",
+        "*://*.kn-online.de/*",
+        "*://*.ln-online.de/*",
+        "*://*.ostsee-zeitung.de/*",
+        "*://*.maz-online.de/*",
+        "*://*.sn-online.de/*",
+        "*://*.lvz.de/*"],
+      "js": ["newspaperfree.js"]
+    }
+  ]
+
+}
