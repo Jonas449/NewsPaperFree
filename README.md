@@ -1,5 +1,6 @@
 # NewsPaperFree
-Articles on some german newspaper pages can be read free
+Browser extension to read articles on some german newspaper pages for free
+Working in the latest version of Google Chrome and Firefox
 
 Sites that work:
 - Hannoversche Allgemeine
