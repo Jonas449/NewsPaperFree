@@ -15,3 +15,6 @@ Sites that work:
 - Lübecker Nachrichten
 - Ostsee Zeitung
 - Märkische Allgemeine 
+
+## Installation Firefox
+https://addons.mozilla.org/de/firefox/addon/newspaper-free/
