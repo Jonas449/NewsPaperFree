@@ -7,7 +7,7 @@
   },
   "manifest_version": 2,
   "name": "Newspaper Free",
-  "version": "1.1.3",
+  "version": "1.1.4",
 
   "description": "Articles on some newspaper pages can be read free",
 
@@ -22,7 +22,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.haz.de/*",
-        "*://*.cellesche-zeitung.de/*",
+        "*://*.cz.de/*",
         "*://*.neuepresse.de/*",
         "*://*.goettinger-tageblatt.de/*",
         "*://*.waz-online.de/*",
