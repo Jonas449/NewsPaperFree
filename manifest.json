@@ -21,8 +21,8 @@
 
   "content_scripts": [
     {
-      "matches":
-      ["*://*.haz.de/*",
+      "matches": [
+        "*://*.haz.de/*",
         "*://*.cz.de/*",
         "*://*.neuepresse.de/*",
         "*://*.goettinger-tageblatt.de/*",
@@ -34,7 +34,8 @@
         "*://*.maz-online.de/*",
         "*://*.sn-online.de/*",
         "*://*.lvz.de/*",
-        "*://*.dnn.de/*"],
+        "*://*.dnn.de/*"
+      ],
       "js": ["newspaperfree.js"]
     }
   ]
