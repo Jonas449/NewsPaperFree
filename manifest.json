@@ -7,7 +7,7 @@
   },
   "manifest_version": 2,
   "name": "Newspaper Free",
-  "version": "1.1.4",
+  "version": "1.1.5",
 
   "description": "Articles on some newspaper pages can be read free",
 
@@ -21,7 +21,8 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.haz.de/*",
+      "matches":
+      ["*://*.haz.de/*",
         "*://*.cz.de/*",
         "*://*.neuepresse.de/*",
         "*://*.goettinger-tageblatt.de/*",
@@ -32,9 +33,9 @@
         "*://*.ostsee-zeitung.de/*",
         "*://*.maz-online.de/*",
         "*://*.sn-online.de/*",
-        "*://*.lvz.de/*"],
+        "*://*.lvz.de/*",
+        "*://*.dnn.de/*"],
       "js": ["newspaperfree.js"]
     }
   ]
-
 }

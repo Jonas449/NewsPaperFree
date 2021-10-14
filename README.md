@@ -14,7 +14,8 @@ Sites that work:
 - Kieler Nachrichten
 - Lübecker Nachrichten
 - Ostsee Zeitung
-- Märkische Allgemeine 
+- Märkische Allgemeine
+- Dresdner Neueste Nachrichten
 
 ## Installation Firefox
 https://addons.mozilla.org/de/firefox/addon/newspaper-free/
