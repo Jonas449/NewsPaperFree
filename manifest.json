@@ -7,7 +7,7 @@
   },
   "manifest_version": 2,
   "name": "Newspaper Free",
-  "version": "1.1.5",
+  "version": "1.1.6",
 
   "description": "Articles on some newspaper pages can be read free",
 
@@ -36,7 +36,8 @@
         "*://*.lvz.de/*",
         "*://*.dnn.de/*"
       ],
-      "js": ["newspaperfree.js"]
+      "js": ["newspaperfree.js"],
+      "run_at": "document_end"
     }
   ]
 }
