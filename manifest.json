@@ -16,10 +16,6 @@
     "48": "icons/newspaper.svg"
   },
 
-  "permissions": [
-    "activeTab"
-  ],
-
   "content_scripts": [
     {
       "matches": [
