@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Newspaper Free",
-  "version": "1.2.1",
+  "version": "1.2.2",
 
   "browser_specific_settings": {
     "gecko": {
@@ -10,15 +10,11 @@
     }
   },
 
-  "description": "Articles on some newspaper pages can be read free",
+  "description": "Articles on some German newspaper pages can be read for free.",
 
   "icons": {
     "48": "icons/newspaper.svg"
   },
-
-  "permissions": [
-    "activeTab"
-  ],
 
   "content_scripts": [
     {

@@ -22,3 +22,20 @@
     line-height: 26px;
     color: rgb(41, 56, 69);
 }
+
+.image {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.image-description {
+    color: rgb(89, 122, 150);
+    font-family: Inter, Arial, Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin: 0px
+}

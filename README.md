@@ -17,5 +17,7 @@ Sites that work:
 - Märkische Allgemeine
 - Dresdner Neueste Nachrichten
 
-## Installation Firefox
-https://addons.mozilla.org/de/firefox/addon/newspaper-free/
+## Installation
+[Firefox](https://addons.mozilla.org/de/firefox/addon/newspaper-free/)
+
+[Chrome](https://chrome.google.com/webstore/detail/newspaper-free/klphkdbfhhponbapidiobmffmllibaed)
